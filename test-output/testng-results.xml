@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-04-01T09:01:33 UTC" name="Suite" finished-at="2021-04-01T09:01:43 UTC" duration-ms="9850">
+    <groups>
+    </groups>
+    <test started-at="2021-04-01T09:01:33 UTC" name="Chrome Test" finished-at="2021-04-01T09:01:40 UTC" duration-ms="7557">
+      <class name="com.qatechhub.tests.ContactUsTests">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qatechhub.tests.ContactUsTests@69930714]" started-at="2021-04-01T09:01:33 UTC" name="setup" finished-at="2021-04-01T09:01:38 UTC" duration-ms="5101" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome-remote]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyContactUsForm()[pri:0, instance:com.qatechhub.tests.ContactUsTests@69930714]" started-at="2021-04-01T09:01:38 UTC" name="verifyContactUsForm" finished-at="2021-04-01T09:01:40 UTC" duration-ms="2233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContactUsForm -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:com.qatechhub.tests.ContactUsTests@69930714]" started-at="2021-04-01T09:01:40 UTC" name="cleanUp" finished-at="2021-04-01T09:01:40 UTC" duration-ms="120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- com.qatechhub.tests.ContactUsTests -->
+    </test> <!-- Chrome Test -->
+    <test started-at="2021-04-01T09:01:33 UTC" name="Firefox Test" finished-at="2021-04-01T09:01:43 UTC" duration-ms="9841">
+      <class name="com.qatechhub.tests.ContactUsTests">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qatechhub.tests.ContactUsTests@23529fee]" started-at="2021-04-01T09:01:33 UTC" name="setup" finished-at="2021-04-01T09:01:41 UTC" duration-ms="7717" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox-remote]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyContactUsForm()[pri:0, instance:com.qatechhub.tests.ContactUsTests@23529fee]" started-at="2021-04-01T09:01:41 UTC" name="verifyContactUsForm" finished-at="2021-04-01T09:01:42 UTC" duration-ms="1406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContactUsForm -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:com.qatechhub.tests.ContactUsTests@23529fee]" started-at="2021-04-01T09:01:42 UTC" name="cleanUp" finished-at="2021-04-01T09:01:43 UTC" duration-ms="643" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- com.qatechhub.tests.ContactUsTests -->
+    </test> <!-- Firefox Test -->
+  </suite> <!-- Suite -->
+</testng-results>
